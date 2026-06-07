@@ -1,7 +1,5 @@
 import OpenAI from "openai";
 
-import OpenAI from "openai";
-
 const openai = new OpenAI({
   apiKey: process.env.AI_KEY,
   baseURL: process.env.AI_URL,
